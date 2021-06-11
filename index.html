@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="surveyForm.css">
+</head>
+<body>
+    
+     <div class="design">
+
+     <form class="row g-3">
+         <div>            <label class="req">Name</label> <br></div>
+        <div class="col-md-6">
+
+          <input type="name" class="form-control" id="inputName" required>
+          <label for="inputName">First</label>
+        </div>
+        <div class="col-md-6">
+          
+          <input type="name" class="form-control" id="inputLname" required>
+          <label for="inputLname" class="form-label">Last</label>
+        </div>
+        <div class="col-12">
+          <label for="inputEmail" class="req">Email</label>
+          <input type="text" class="form-control" id="inputEmail" required >
+        </div>
+        <div class="col-12">
+          <label for="inputExperience" class="req">Your Experience</label> <br>
+          <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span> 
+<div><p id="p1"> Overall how would you rate your experience with us?</p></div>
+        </div>
+        <div> <label class="req">  How satisfied are you with</label>
+        
+<table>
+	<thead>
+		<tr class="one1">
+			<td> </td>
+			<td>Very unsatisfied</td>
+			<td>Unsatisfied</td>
+			<td>Neautral</label></th>
+			<td>Very Satisfied</td>
+			<td>Satisfied</td>
+		</tr>
+		<thead>
+<tr>
+	<td>Purchase</td>
+	<td><label for="most1">most</label></label><input type="radio" id="most1" name="q1"></td>
+	<td><label for="almost1">most</label><input type="radio" id="almost1"name="q1"> </td>
+	<td><label for="some1">most</label><input type="radio" id="some1" name="q1"></td>
+	<td><label for="barely1">most</label><input type="radio" id="barely1" name="q1"> </td>
+	<td><label for="none1">most</label><input type="radio" id="none1" name="q1"> </td>
+</tr>
+<tr>
+	<td>Service</td>
+	<td><label for="most2">most</label></label><input type="radio" id="most2" name="q2"></td>
+	<td><label for="almost2">most</label><input type="radio" id="almost2"name="q2"> </td>
+	<td><label for="some2">most</label><input type="radio" id="some2" name="q2"></td>
+	<td><label for="barely2">most</label><input type="radio" id="barely2" name="q2"> </td>
+	<td><label for="none2">most</label><input type="radio" id="none2" name="q2"> </td>
+</tr>
+<tr>
+	<td>Company Overall</td>
+	<td><label for="most3">most</label></label><input type="radio" id="most3" name="q3"></td>
+	<td><label for="almost3">most</label><input type="radio" id="almost3"name="q3"> </td>
+	<td><label for="some3">most</label><input type="radio" id="some3" name="q3"></td>
+	<td><label for="barely3">most</label><input type="radio" id="barely3" name="q3"> </td>
+	<td><label for="none3">most</label><input type="radio" id="none3" name="q3"> </td>
+</tr>
+</table>
+</div>
+
+<div> <label class="req">  How likely are you to</label>
+    <div>
+<table>
+	<thead>
+		<tr class="one1">
+			<td> </td>
+			<td>Very unlikely</td>
+			<td>Unlikely</td>
+			<td>Neautral</label></th>
+      <td>Likely</td>
+			<td>Very likely</td>
+			
+		</tr>
+		<thead>
+<tr>
+	<td>Buy from us again</td>
+	<td><label for="most1">most</label></label><input type="radio" id="most1" name="q1"></td>
+	<td><label for="almost1">most</label><input type="radio" id="almost1"name="q1"> </td>
+	<td><label for="some1">most</label><input type="radio" id="some1" name="q1"></td>
+	<td><label for="barely1">most</label><input type="radio" id="barely1" name="q1"> </td>
+	<td><label for="none1">most</label><input type="radio" id="none1" name="q1"> </td>
+</tr>
+<tr>
+	<td>Recommend Our<br> Products to others</td>
+	<td><label for="most2">most</label></label><input type="radio" id="most2" name="q2"></td>
+	<td><label for="almost2">most</label><input type="radio" id="almost2"name="q2"> </td>
+	<td><label for="some2">most</label><input type="radio" id="some2" name="q2"></td>
+	<td><label for="barely2">most</label><input type="radio" id="barely2" name="q2"> </td>
+	<td><label for="none2">most</label><input type="radio" id="none2" name="q2"> </td>
+</tr>
+<tr>
+	<td>Recommend Our<br> company to others</td>
+	<td><label for="most3">most</label></label><input type="radio" id="most3" name="q3"></td>
+	<td><label for="almost3">most</label><input type="radio" id="almost3"name="q3"> </td>
+	<td><label for="some3">most</label><input type="radio" id="some3" name="q3"></td>
+	<td><label for="barely3">most</label><input type="radio" id="barely3" name="q3"> </td>
+	<td><label for="none3">most</label><input type="radio" id="none3" name="q3"> </td>
+</tr>
+</table>
+
+
+
+                     
+     
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" ><b>Additional Comments or Suggestion</b></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div><br>
+                    </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-light">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="survey.js"></script>
+</body>
+</html>
